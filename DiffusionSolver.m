@@ -11,7 +11,7 @@ classdef DiffusionSolver < handle
         lambda = 4;
     end
     
-    properties %dependant but not
+    properties
         xVector
         dx
         U
